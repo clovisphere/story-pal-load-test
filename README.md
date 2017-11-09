@@ -25,11 +25,13 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
    The directory should like:
    
+   ```
       ├── app.py
       ├── quick_test.yml
       ├── requirements
       │   └── requirements.txt
       └── stats.csv
+    ```
 
 2. `$ CD` into `story-pal-load-test` directory.
 3. `$ pip install virtualenv`
