@@ -26,11 +26,13 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
    The directory should like:
    
    ```
-      ├── app.py
-      ├── quick_test.yml
-      ├── requirements
-      │   └── requirements.txt
-      └── stats.csv
+   ├── app.py
+   ├── img
+   │     └── test_stats.png
+   ├── quick_test.yml
+   ├── requirements
+   │     └── requirements.txt
+   └── stats.csv
     ```
 
 2. `$ CD` into `story-pal-load-test` directory.
@@ -103,6 +105,14 @@ reporting:
     dump-csv: stats.csv
 ```
 Self explanatory, I believe!
+
+### RUN TEST:
+
+`bzt quick_test.yml`
+
+That's it.. if you did things well, you'd see something like:
+
+
 
 
 
