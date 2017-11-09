@@ -112,7 +112,7 @@ Self explanatory, I believe!
 
 That's it.. if you did things well, you'd see something like:
 
-
+![Example - Taurus/Console](img/test_stats.png?raw=true "some stats")
 
 
 
