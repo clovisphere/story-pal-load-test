@@ -6,15 +6,15 @@ HTTP_OK = 200
 
 STUDENTS = [
     {
-        'username': 'lela',
-        'password': 'sumbalgsumbalg'
+        'username': '',
+        'password': ''
     }
 ]
 
 GUARDIANS = [
     {
-        'username': 'sumbalg2',
-        'password': 'sumbal16'
+        'username': '',
+        'password': ''
     }
 ]
 
