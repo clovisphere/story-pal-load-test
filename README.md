@@ -41,7 +41,7 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
 ```
    + `$ virtualenv -p /usr/bin/python2.7 my_project`
-   + `$ source performance/bin/activate`
+   + `$ source my_project/bin/activate`
 ```
 
 If all went well, the name of the current virtual environment will now appear on the left of the prompt, like: `(my_project)Your-Computer:your_project UserName$)`
