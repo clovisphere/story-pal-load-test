@@ -48,8 +48,8 @@ If all went well, the name of the current virtual environment will now appear on
    
 Now let's install what you will need for the performance test a.k.a the **GOOD STUFF**!
 
-5. `CD` into your `story-pal-load-test` directory (if you weren't in it).
-6. `pip install -r  requirements/requirements.txt` to install the Python dependencies you need for this project.
+5. `$ CD` into your `story-pal-load-test` directory (if you weren't in it).
+6. `$ pip install -r  requirements/requirements.txt` to install the Python dependencies you need for this project.
 
 ..and that's it! No... You still need to run your tests, right?
 
@@ -108,7 +108,9 @@ Self explanatory, I believe!
 
 ### RUN TEST:
 
-`bzt quick_test.yml`
+`$ bzt quick_test.yml`
+
+**Note:** `$` denotes the **shell prompt** on Mac/Linux (so do not type it when running command) 
 
 That's it.. if you did things well, you'd see something like:
 
