@@ -49,8 +49,26 @@ Now let's install what you will need - the **GOOD STUFF**!
 5. `CD` into your `story-pal-load-test` directory (if you weren't in it).
 6. `pip install -r  requirements/requirements.txt` to install the Python dependencies you need for this project.
 
-..and that's it! No... You still need to run your test, sorry:-)
+..and that's it! No... You still need to run your tests, right?
 
+If you open, the **app.py**, you will see:
+
+```python
+STUDENTS = [
+    {
+        'username': '',
+        'password': ''
+    }
+]
+
+GUARDIANS = [
+    {
+        'username': '',
+        'password': ''
+    }
+]
+```
+You may wanna read (more) about Python data structurem, here is a good [link](https://docs.python.org/2/tutorial/datastructures.html). 
 
 
 
