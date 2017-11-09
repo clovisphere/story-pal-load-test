@@ -1,6 +1,6 @@
 execution:
 - executor: locust
-  concurrency: 100 # number of target concurrent virtual users
+  concurrency: 5 # number of target concurrent virtual users
   hold-for: 1m  # test duration
   scenario: test # test to run (see 'scenarios')
 
