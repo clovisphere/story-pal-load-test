@@ -23,7 +23,7 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
 1. `$ git clone https://github.com/clovisphere/story-pal-load-test.git`
 
-   The directory should like:
+   The directory should look like:
    
    ```
    ├── app.py
@@ -37,7 +37,7 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
 2. `$ CD` into `story-pal-load-test` directory.
 3. `$ pip install virtualenv`
-4. Create and activate an environment (outside of project directory, preferably):
+4. Create and activate a virtual env (outside of project directory, preferably):
 
 ```
    + `$ virtualenv -p /usr/bin/python2.7 my_project`
@@ -46,14 +46,14 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
 If all went well, the name of the current virtual environment will now appear on the left of the prompt, like: `(my_project)Your-Computer:your_project UserName$)`
    
-Now let's install what you will need - the **GOOD STUFF**!
+Now let's install what you will need for the performance test a.k.a the **GOOD STUFF**!
 
 5. `CD` into your `story-pal-load-test` directory (if you weren't in it).
 6. `pip install -r  requirements/requirements.txt` to install the Python dependencies you need for this project.
 
 ..and that's it! No... You still need to run your tests, right?
 
-If you open, the **app.py**, you will see:
+If you open, the **app.py** file, you will see:
 
 ```python
 STUDENTS = [
@@ -70,7 +70,7 @@ GUARDIANS = [
     }
 ]
 ```
-You may wanna read (more) about Python data structure, here is a good [link](https://docs.python.org/2/tutorial/datastructures.html). The only thing you need to do is pass correct/valid username and password -- if you wanna test with different usernames and passwords, you can, just add additional ones, like:
+You may wanna read (more) about Python data structure, here is a good [link](https://docs.python.org/2/tutorial/datastructures.html). The only thing you need to do is pass the correct/valid username and password -- if you wanna test with different usernames and passwords, you can, just add additional ones, like:
 
 ```python
 STUDENTS = [
