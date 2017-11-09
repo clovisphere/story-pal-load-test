@@ -68,7 +68,18 @@ GUARDIANS = [
     }
 ]
 ```
-You may wanna read (more) about Python data structurem, here is a good [link](https://docs.python.org/2/tutorial/datastructures.html). 
+You may wanna read (more) about Python data structure, here is a good [link](https://docs.python.org/2/tutorial/datastructures.html). The only thing you need to do is pass correct/valid username and password -- if you wanna test with different usernames and passwords, you can, just add additional ones, like:
+
+```python
+STUDENTS = [
+  {'username': '', 'password': ''},
+  {'username': '', 'password': ''},
+  {'username': '', 'password': ''}
+  .
+  .
+  .
+]
+```
 
 
 
