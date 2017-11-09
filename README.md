@@ -17,7 +17,7 @@ Although we could use Python **3.5** and above with both [Taurus](https://gettau
 
 We will make heavy use of **pip** and **virtualenv**, you can read about them [here](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
 
-####STEPS:
+#### STEPS:
 
 Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.com/) on the Mac is dope:
 
@@ -36,9 +36,11 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 2. `$ CD` into `story-pal-load-test` directory.
 3. `$ pip install virtualenv`
 4. Create and activate an environment (outside of project directory, preferably):
+```
    +. `$ virtualenv -p /usr/bin/python2.7 my_project`
    +. `$ source performance/bin/activate`
-   +. If all went well, name of the current virtual environment will now appear on the left of the prompt, lie: `(my_project)Your-Computer:your_project UserName$)`
+   +. If all went well, name of the current virtual environment will now appear on the left of the prompt, lie:  `(my_project)Your-Computer:your_project UserName$)`
+```
    
 Now let's install what you will need - the **GOOD STUFF**!
 
