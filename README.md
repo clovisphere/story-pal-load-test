@@ -23,7 +23,7 @@ Open your *fav* terminal -- if you don't have one, [iTerm2](https://www.iterm2.c
 
 1. `$ git clone https://github.com/clovisphere/story-pal-load-test.git`
 
-   The directory should look like:
+   The directory's content should look like:
    
    ```
    ├── app.py
